@@ -1,7 +1,7 @@
 # This is a winget package installation task for Dev Box.
 
 $schema: 1.0
-name: winget
+name: wingettest
 description: Applies a winget configuration to the Dev Box.
 author: Microsoft Corporation
 command: .\main.ps1 -ConfigurationFile {{configurationFile}} -DownloadUrl {{downloadUrl}} -InlineConfigurationBase64 {{inlineConfigurationBase64}} -Package {{package}} -Version {{version}} -RunAsUser {{runAsUser}}
